@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E14E415E-A9AB-4287-9BE4-C3E8753E9DF9}</ProjectGuid>
+    <ProjectGuid>{7B323D62-AD7F-4B8A-B454-2D1CEC495674}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Vježba_1</RootNamespace>
-    <AssemblyName>Vježba-1</AssemblyName>
+    <RootNamespace>LV9Zadatak_3</RootNamespace>
+    <AssemblyName>LV9Zadatak_3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KucniLjubimac.cs" />
+    <Compile Include="Pas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

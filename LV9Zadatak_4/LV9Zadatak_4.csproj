@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{939642F8-8311-46BB-9D0A-F54B3C0E83FE}</ProjectGuid>
+    <ProjectGuid>{DC7F16CC-E1A1-4B18-8752-835A991DF010}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Vježba_2</RootNamespace>
-    <AssemblyName>Vježba-2</AssemblyName>
+    <RootNamespace>LV9Zadatak_4</RootNamespace>
+    <AssemblyName>LV9Zadatak_4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlkoholnoPice.cs" />
+    <Compile Include="Pice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

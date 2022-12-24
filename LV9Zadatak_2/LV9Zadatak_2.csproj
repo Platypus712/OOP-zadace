@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ED382452-EF4E-40B3-8F2D-64BD207B4EBC}</ProjectGuid>
+    <ProjectGuid>{26DA04A5-8CF9-42CB-84B7-D9CB2B273E8C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Vježba_3</RootNamespace>
-    <AssemblyName>Vježba-3</AssemblyName>
+    <RootNamespace>LV9Zadatak_2</RootNamespace>
+    <AssemblyName>LV9Zadatak_2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kamion.cs" />
+    <Compile Include="MotornoVozilo.cs" />
+    <Compile Include="OsobnoVozilo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
